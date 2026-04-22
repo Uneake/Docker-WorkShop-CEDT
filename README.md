@@ -145,7 +145,7 @@ docker run -d \
   --network peer-test \
   -e POSTGRES_USER=postgres \
   -e POSTGRES_PASSWORD=postgres \
-  -e POSTGRES_DB=workshop \
+  -e POSTGRES_DB=workshop \ 
   postgres:16-alpine
 
 # 3. Run their app connected to the database
